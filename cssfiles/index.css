@@ -52,7 +52,8 @@ body {
     margin-left: 200px;
 }
 
-.section-A button {
+
+.section-A a {
     background-color: #3882F6;
     color: white;
     border: none;
@@ -60,6 +61,7 @@ body {
     font-size: 20px;
     padding: 10px 35px;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .placeholder-A {
@@ -72,4 +74,96 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.h1-B {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.section-B {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    text-align: center;
+}
+.sub-section-B {
+     max-width: 200px;
+     text-align: center;
+}
+
+.empty_placeholder {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882F6;
+    border-radius: 10%;
+}
+
+.section-C {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    max-width: 900px;
+    font-style: italic; 
+}
+
+.quote_maker {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 400px;
+    font-style: normal;
+}
+
+.section-D {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 300px;
+    padding: 30px 30px 50px 30px;
+    border-radius: 20px;
+}
+
+.sub-section-D {
+    margin-right: 500px;
+}
+
+.sub-section-D h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.sub-section-D p {
+    font-size: 18px;
+}
+
+.section-D a {
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 35px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 30px 20px;
 }
